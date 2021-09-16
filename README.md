@@ -1,11 +1,11 @@
 # Andersen-test-task
 1)Составить алгоритм: если введенное число больше 7, то вывести “Привет”
 
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-
 namespace Task1
 {
     public class Program
@@ -81,8 +81,7 @@ namespace Task3
             // Вывод содержимого массива
             for (i = 0; i < n; i = i + 1)
                 Console.Write(Data[i]+" ");
- 
- 
+
             int v = 0;
             Console.WriteLine("\nКратные трем:");
             for(i=0;i<n;i++)
