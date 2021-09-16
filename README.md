@@ -12,12 +12,10 @@ namespace Task1
     {
         public static void Main(string[] args)
         {
-    
              int num =
             Convert.ToInt32(Console.ReadLine());
             if (num > 7)
-            Console.WriteLine("Привет"); 
-            
+            Console.WriteLine("Привет");    
         }
     }
 }
@@ -45,10 +43,7 @@ namespace Task2
              Console.WriteLine("Привет,Вячеслав");
              else
              if (name != myName) 
-             Console.WriteLine("Нет такого имени");
-             
-             
-             
+             Console.WriteLine("Нет такого имени");  
         }
     }
 }
@@ -67,18 +62,18 @@ namespace Task3
     {
         static void Main(string[] args)
         {
-            // Задать с клавиатуры число элементов массива
+            // Задаю с клавиатуры число элементов массива
             int n;
             Console.WriteLine("Введите число элементов массива");
             n = Convert.ToInt16(Console.ReadLine());
-            // Объявим одномерный массив Data с n-элементами 
+            // Одномерный массив Data с n-элементами 
             double[] Data = new double[n];
             int i = 0;
             while (i < n)
             {
                 Console.WriteLine("Введите элемент массива");
-                /* Вводим элементы массива с клавиатуры 
-                * и заполняем ими массив */
+                /* Ввод элементов массива с клавиатуры 
+                * и заполняю ими массив */
                 Data[i] = double.Parse(Console.ReadLine());
                 Console.WriteLine();
                 i++;
